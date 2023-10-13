@@ -1,0 +1,47 @@
+.board-container {
+    width: 300px;
+}
+
+.draw-result,
+.winner-player,
+.next-player {
+    user-select: none;
+}
+
+.main-board-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.main-board {
+    margin-top: 10px;
+    width: 100px;
+    border: 1px solid #999999;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    position: relative;
+}
+
+.current-step {
+    font-size: 1rem;
+    user-select: none;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sort-btn {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 110px;
+    width: 120px;
+}
